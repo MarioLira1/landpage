@@ -1,0 +1,57 @@
+
+.main-bg{
+    background-image: url('../img/scattered-forcefields.svg');
+    background-size: cover;
+    background-position: center center;
+    color: aliceblue;
+  }
+
+
+.main_content{
+    max-width: 120rem;
+    /* largura maxima do site */
+    margin: 0 auto;
+    padding: var(--gap);
+
+
+}
+
+
+.white_bg{
+    background: aliceblue;
+    color: var(--primary-color);
+
+}
+
+
+.section{
+    min-height: 100vh;
+
+}
+
+
+
+.full-width{
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.Form-Grupo button{
+    border: 0.5rem solid aliceblue;
+    background: none;
+    color: aliceblue;
+    padding: 1.5rem 2rem;
+    margin-top: 3rem;
+    font-size: medium;
+
+}
+
+.Form-Grupo button:hover{
+color: blueviolet;
+transition: all 0.500s;
+border: 15px solid transparent;
+cursor: pointer;
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+
+}
